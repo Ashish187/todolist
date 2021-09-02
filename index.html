@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <input type="text" placeholder="Decription" required id="desc">
+    
+    <div class="cont-1">
+    <input type="datetime-local" placeholder="Enter date and time" required id="time">
+    <button id="btn" type="submit">Add Todo</button>
+    </div>
+    </div>
+
+<div id="items">
+        <h2>Your Items</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" class="head">Sno</th>
+                    <th scope="col" class="head">Item Description
+                    <!-- <p id="output">You forgot me</p> -->
+
+                    </th>
+                    <th scope="col" class="head">Date</th>
+                    <th scope="col" class="head">Actions</th>
+                    <th scope="col" class="head">Remove</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <th class="bottom">1</th>
+                    <td class="bottom">Drink water</td>
+                    <td class="bottom">2021-09-01 3:56</td>
+                    
+                    <td class="bottom"><button type="button" id="delete">mark</button></td> 
+                    <td class="bottom"><button type="button">Deleted</button></td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

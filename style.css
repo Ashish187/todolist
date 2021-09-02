@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: 4rem;
+}
+
+.container #desc{
+    width: 35%;
+    line-height: 22px;
+}
+
+.container .cont-1{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container .cont-1 #btn{
+    margin-left: 10px;
+}
+
+#items{
+    margin-top: 4rem;
+    margin-left: 34rem;
+}
+#items h2{
+    margin-left: 82px;
+    margin-bottom: 20px;
+}
+
+#items table thead{
+    margin-top: 20px;
+}
+
+#items .table thead tr .head{
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+#items .table tbody tr th,td{
+    padding-left: 69px;
+    padding-bottom: 30px;
+}
+
+#output{
+    font-size: 24px;
+}
